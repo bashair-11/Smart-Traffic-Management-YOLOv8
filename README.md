@@ -95,4 +95,4 @@ model = YOLO('best.onnx')
 results = model.predict(source='path_to_test_traffic_image.jpg', conf=0.25)
 results.show()
 ```
-
+https://sdaia.gov.sa/ar/default.aspx
