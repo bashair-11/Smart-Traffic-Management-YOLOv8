@@ -34,6 +34,26 @@ graph TD
 ## 5. Results & Evaluation
 The model achieved high precision and recall scores across dominant classes during validation. 
 
+📈 إجمالي مقاييس أداء النموذج (Overall Metrics):
+🔹 Precision : 0.9083
+🔹 Recall : 0.4336
+🔹 mAP50: 0.6375
+========================================
+
+🚗 مقاييس الأداء التفصيلية لكل فئة:
+📌 Bus:
+   - Precision: 0.9234
+   - Recall: 1.0000
+📌 Car:
+   - Precision: 0.8613
+   - Recall: 0.4012
+📌 Motorcycle:
+   - Precision: 0.8485
+   - Recall: 0.3333
+📌 Truck:
+   - Precision: 1.0000
+   - Recall: 0.0000
+
 ### Performance Analysis:
 * **Success Case (Accurate Detection):** The model seamlessly detects and counts vehicles under clear daylight and optimal spacing conditions, correctly separating large trucks from compact cars.
 * **Failure Case (Missed/False Detection):** The system experienced occasional missed detections under heavy occlusion (e.g., a small motorcycle hidden completely behind a large bus) or extremely low-light/shadow conditions.
